@@ -1,3 +1,5 @@
 # Timeline - react
 
-Online CV with Demo data: public\demo-data\demo\data.json
+Online CV with demo [data.json](dist/demo-data/demo/data.json)
+
+[DEMO](https://luboskadasi.github.io/timeline-react/)
