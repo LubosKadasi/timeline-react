@@ -1,0 +1,36 @@
+section{
+  padding: 2rem 1.5rem 60vh;
+  max-width: 80ch;
+  @include tablet{
+    padding: 2rem 3rem 90vh;
+  }
+  h2{
+    text-align: center;
+    i{
+      font-style: normal;
+      display: inline-block;
+      margin-left: .25rem;
+    }
+  }
+  :target{
+    padding-top: 7rem;
+    animation: highlightText .33s ease-in-out; /* Animation properties */
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    z-index: -1;
+    position: relative;
+    text-decoration: underline .1em wavy var(--link-color-active);
+  }
+}
+
+@keyframes highlightText{
+  0%{
+    color: var(--primary-color);
+  }
+  50%{
+    color: var(--link-color-active);
+  }
+  100%{
+    color: var(--primary-color);
+  }
+}

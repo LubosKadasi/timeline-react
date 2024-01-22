@@ -1,0 +1,85 @@
+.theme-switch {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: auto;
+  input {
+    display: none;
+  }
+  .switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--secondary-color);
+    transition: 0.4s;
+    border-radius: 1rem;
+  }
+  
+  .switch:before {
+    position: absolute;
+    content: '';
+    height: 1.3rem;
+    width: 1.3rem;
+    left: .4rem;
+    bottom: .1rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+  
+  input:checked + .switch {
+    background-color: var(--secondary-color);
+  }
+  
+  input:checked + .switch:before {
+    height: 1.8rem;
+    width: 1.8rem;
+    left: -.15rem;
+    bottom: -.15rem;
+    border: .15rem dotted var(--secondary-color);
+    background-color: transparent;
+  }
+}
+
+.overlay-tools{
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  padding: .75rem 1rem;
+  background-color: var(--primary-color);
+  bottom: 1rem;
+  box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.5);
+  z-index: 10005;
+  @include tablet{
+    z-index: 10010;
+    padding: 1rem;
+  }
+  &--left{
+    border-radius: 0 2rem 2rem 0;
+    left: 0;
+  }
+  &--right{
+    right: 0;
+    border-radius: 2rem 0 0 2rem;
+  }
+}
+
+a.toggle-tags{
+  font-size: 3.25rem;
+  color: var(--link-color);
+  order: 0;
+  @include tablet{
+    display: none;
+  }
+}
+
+.github{
+  svg{
+    display: block;
+    height: 1.65rem;
+    width: 1.65rem;
+  }
+}
