@@ -1,0 +1,84 @@
+{
+  "sections": [
+    { 
+      "id": "2024", 
+      "title": "2024+",
+      "content": [
+        "<p>Continuing my education in:</p>",
+        "<ul>",
+          "<li><strong id='react'>React</strong></li>",
+          "<li><strong id='angular'>Angular</strong></li>",
+          "<li>Planning to explore Vue as well</li>",
+        "</ul>",
+        "<p>In my free time, I'm optimizing SmartHome automation with Google Assistant and Home Assistant.</p>"
+      ]
+    },
+    {
+      "id": "2019",
+      "title": "2019+",
+      "content": [
+        "<p>Working as a senior Front-End developer, I daily dealt with technologies and systems like Git, Sass, gulp, Jira, Figma, etc.</p>",
+        "<p>Responsible for development, deployment, performance, optimization of Web Vitals on projects such as:</p>",
+        "<ul>",
+          "<li><strong>project1.com</strong> - Main portal, public and internal sub-portals</li>",
+          "<li><strong>project2.com</strong> - Complete redesign for responsiveness</li>",
+          "<li><strong>project3.com</strong> - Client and admin portal for user management</li>",
+          "<li>And many more...</li>",
+        "</ul>",
+        "<p>Deployment, results presentation, and training myself and clients in analytical and SEO tools:</p>",
+        "<ul>",
+          "<li><strong id='google'>Google</strong> Tag Manager</li>",
+          "<li>Google Search Console</li>",
+          "<li>Google Analytics 3 and 4 including migration</li>",
+          "<li>Google Looker Studio (Data Studio)</li>",
+          "<li><strong id='ABtesting'>A/B Testing</strong> with Google Optimise</li>",
+          "<li>Bloomreach</li>",
+        "</ul>"
+      ],
+      "scrollTo": true
+    },
+    {
+      "id": "2014",  
+      "title": "2014+",
+      "content": [
+        "<p>Since 2014, I've been working on the <a href='https://www.example.com/'>IT</a> project, where I was mainly responsible for the IT website's functionality.</p>",
+        "<p>During this period, I also served as a lecturer for Front-End courses, preparing students to work with technologies such as:</p>",
+        "<ul>",
+          "<li><strong>HTML 5</strong></li>",
+          "<li><strong>CSS 3</strong></li>",
+          "<li><strong>Bootstrap</strong></li>",
+          "<li><strong>LESS and </strong><strong id='sass'>SASS</strong></li>",
+          "<li><strong id='git'>Git</strong></li>",
+          "<li><strong>jQuery</strong></li>",
+          "<li><strong>JavaScript</strong></li>",
+        "</ul>",
+        "<p>Additionally, I prepared the Front-End part for several complex internal portals during this project.</p>",
+        "<p>Collaborated with <a href='http://www.examplecompany.com/' target='_blank'>Example Company</a> as a Front-End developer on projects like:</p>",
+        "<ul>",
+          "<li><a href='http://www.exampleproject.com/' target='_blank'>exampleproject.com</a> - Public website and deployment on Tidy CMS</li>",
+          "<li>ExamplePay - Automatic Merchant Board</li>",
+          "<li><a href='http://www.examplemedia.com/' target='_blank'>examplemedia.com</a> - Public website, development of a custom CMS, and deployment</li>",
+          "<li>Examplemedia - Internal portal for clients, development of a custom CMS, and deployment</li>",
+          "<li><a href='http://www.example.com/' target='_blank'>example.com</a> - Public website</li>",
+          "<li>ExampleTeleco - Information system for TELCO clients</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "id": false,
+      "title": "",
+      "content": "<p>Thank you for taking the time to read up to this point.</p>"
+    },
+    {
+      "id": "contact",
+      "title": "@",
+      "content": [
+        "<h3>Ľuboš Kadaši</h3>",
+        "<p>",
+          "<a href='tel:+421910123456'>0910 123 456</a><br>",
+          "<a href='mailto:contact@tome.com'>contact@tome.com</a>",
+        "</p>"
+      ]
+    }
+  ]
+}
