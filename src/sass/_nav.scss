@@ -9,6 +9,9 @@
     text-align: right;
     padding: 3rem 0;
   }
+  @include print{
+    display: none;
+  }
   a{
     text-decoration: none;
     color: rgba($color: var(--primary-color), $alpha: 0.55);

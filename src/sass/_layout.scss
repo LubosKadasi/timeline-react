@@ -45,10 +45,16 @@ body{
     border-left: 1px solid var(--primary-color);
     border-right: none;
   }
+  @include print{
+    border: none;
+  }
   section{
     scroll-snap-align: start;
     min-height: 100vh;
     flex-direction: row;
+    @include print{
+      min-height: auto;
+    }
   }
   .scroll-observer{
     border-left: 5px solid red;
@@ -68,5 +74,8 @@ body{
   z-index: 10000;
   pointer-events: none;
   background: linear-gradient(to top, var(--secondary-color), transparent 7%, transparent 93%, var(--secondary-color));
+  @include print{
+    display: none;
+  }
 }
 

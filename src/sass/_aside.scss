@@ -30,6 +30,9 @@
     top: 0;
     backdrop-filter: none;
   }
+  @include print{
+    display: none;
+  }
   &:before{
     content: "";
     position: absolute;

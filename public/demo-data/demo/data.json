@@ -67,7 +67,8 @@
     {
       "id": false,
       "title": "",
-      "content": "<p>Thank you for taking the time to read up to this point.</p>"
+      "content": "<p>Thank you for taking the time to read up to this point.</p>",
+      "class": "noprint"
     },
     {
       "id": "contact",

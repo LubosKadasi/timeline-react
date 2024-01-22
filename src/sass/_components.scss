@@ -57,6 +57,9 @@
     z-index: 10010;
     padding: 1rem;
   }
+  @include print{
+    display: none;
+  }
   &--left{
     border-radius: 0 2rem 2rem 0;
     left: 0;
@@ -81,5 +84,11 @@ a.toggle-tags{
     display: block;
     height: 1.65rem;
     width: 1.65rem;
+  }
+}
+
+.noprint{
+  @include print{
+    display: none !important;
   }
 }

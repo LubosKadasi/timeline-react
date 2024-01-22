@@ -4,13 +4,34 @@ section{
   @include tablet{
     padding: 2rem 3rem 90vh;
   }
+  @include print{
+    padding-bottom: 0;
+    max-width: none;
+  }
+  article{
+    @include print{
+      display: flex;
+      line-height: 1.125em;
+    }
+  }
   h2{
     text-align: center;
+    @include print{
+      text-align: right;
+      font-size: 18pt;
+      white-space: nowrap;
+      padding-right: 2rem;
+      min-width: 4em;
+    }
     i{
       font-style: normal;
       display: inline-block;
       margin-left: .25rem;
+      margin-top: 13pt;
     }
+  }
+  h3{
+    margin-top: 0;
   }
   :target{
     padding-top: 7rem;

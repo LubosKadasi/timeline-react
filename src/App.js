@@ -82,7 +82,7 @@ const App = () => {
 
       <main className="main">
         {jsonData.sections.map((section) => (
-          <section key={section.id} id={section.id}>
+          <section key={section.id} id={section.id} className={section.class}>
             <article>
               <ScrollObserver sectionId={section.id} onVisible={handleSectionVisible} />
               <h2 dangerouslySetInnerHTML={{ __html: section.title || "" }} />
