@@ -43,6 +43,9 @@
     background-color: var(--secondary-color);
     opacity: .55;
     z-index: -1;
+    @include tablet{
+      display: none;
+    }
   }
   &:target{
     top: 0;
